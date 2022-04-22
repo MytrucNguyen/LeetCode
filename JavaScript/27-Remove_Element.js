@@ -4,7 +4,7 @@ var searchInsert = function(nums, target) {
         if(nums[i] == target){
             return i;
         }
-        else if(nums[i] > target){
+        if(nums[i] > target){
             return i;
         }
     }
