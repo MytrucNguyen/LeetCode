@@ -2,7 +2,8 @@
  * @param {string} s
  * @return {number}
  */
- var lengthOfLastWord = function(s) {
+
+var lengthOfLastWord = function(s) {
     const regex = /^[a-zA-Z0-9!@#\$%\^\&*\)\(+=_-]+$/g
     const specialCharacter = /(\s|,|'|\.)/
     
@@ -17,7 +18,6 @@
     
     let lastword = arrayOfWords[arrayOfWords.length-1]
     return lastword.length
-
 };
 
 console.log(lengthOfLastWord("Hello World"))
@@ -25,6 +25,8 @@ console.log(lengthOfLastWord("   fly me   to   the moon  "))
 console.log(lengthOfLastWord("luffy is still joyboy"))
 
 // Better Way
+/* Splitting the string into an array of words, then it is checking if the last word is empty, if it
+is, it is removing it from the array. Then it is returning the length of the last word. */
 var lengthOfLastWord2 = function(s) {
     let a = s.split(' ');
     
