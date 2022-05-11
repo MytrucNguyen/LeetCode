@@ -13,12 +13,13 @@ const maxArea = (height) => {
 
     while (startOfIndex < endOfIndex) {
         /* Finding the minimum value between the two indexes. */
-        let minArea = Math.min(height[startOfIndex], height[endOfIndex]);
+        let shorterLine = Math.min(height[startOfIndex], height[endOfIndex]);
 
         /* Finding the maximum area between the two indexes. */
-        maxArea = Math.max(maxArea, minArea * (endOfIndex - startOfIndex));
+        maxArea = Math.max(maxArea, shorterLine * (endOfIndex - startOfIndex));
 
-        /* Moving the index with the smaller value towards the center of the array. */
+        /* If there is a longer vertical line present */
+        
         if (height[startOfIndex] < height[endOfIndex]) {
             startOfIndex++;
         } else {
