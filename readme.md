@@ -150,6 +150,7 @@
 
 |   #       |   Title       |   Solution    |   Difficulty  | Instruction |
 |   :-----: | :----------- | :-----------: | :-----------: | :--------- |
+| 1512 | <a href="https://leetcode.com/problems/number-of-good-pairs/">Number of Good Pairs</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/1512-numIdenticalPairs.js">JavaScript</a> | Easy | Given an array of integers nums, return the number of good pairs.<br><br>A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 
 </details>
 
