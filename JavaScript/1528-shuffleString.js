@@ -13,4 +13,16 @@ const restoreString = (s, indices) => {
     return suffledArr.join('');
 }
 
+/**
+ * We create an empty array, then loop through the indices array, 
+ * and for each index, we add the corresponding letter from the string to the empty array.
+ */
+const restoreString = (s, indices) => {
+    let result = [];
+    for (let i = 0; i < s.length; i++) {
+        result[indices[i]] = s[i];; 
+    }
+    return result.join("");
+}
+
 console.log(restoreString("codeleet", [4, 5, 6, 7, 0, 2, 1, 3]));
