@@ -152,6 +152,7 @@
 |   #       |   Title       |   Solution    |   Difficulty  | Instruction |
 |   :-----: | :----------- | :-----------: | :-----------: | :--------- |
 | 1512 | <a href="https://leetcode.com/problems/number-of-good-pairs/">Number of Good Pairs</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/1512-numIdenticalPairs.js">JavaScript</a> | Easy | Given an array of integers nums, return the number of good pairs.<br><br>A pair (i, j) is called good if nums[i] == nums[j] and i < j.
+| 1528 | <a href="https://leetcode.com/problems/shuffle-string/">Shuffle String</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/1528-shuffleString.js">JavaScript</a> | Easy | You are given a string s and an integer array indices of the same length. The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.<br><br>Return the shuffled string.
 
 </details>
 
