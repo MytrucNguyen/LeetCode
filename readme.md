@@ -28,12 +28,21 @@
 </details>
 
 <details>
-    <summary>Problems: 200 - 300</summary>
+    <summary>Problems: 100 - 200</summary>
 
 |   #       |   Title       |   Solution    |   Difficulty  | Instruction |
 |   :-----: | :----------- | :-----------: | :-----------: | :--------- |
 | 121 | <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Best Time to Buy and Sell Stock</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/121-bestTimeToBuyAndSellStock.js">JavaScript</a> | Easy | You are given an array prices where prices[i] is the price of a given stock on the ith day. <br><br>You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. <br><br>Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.|
+| 128 | <a href="https://leetcode.com/problems/longest-consecutive-sequence/">Longest Consecutive Sequence</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/128-longestConsecutive.js">JavaScript</a> | Medium | Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence. <br><br>You must write an algorithm that runs in O(n) time.|
 | 136 | <a href="https://leetcode.com/problems/single-number/">Single Number</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/136-singleNumber.js">JavaScript</a> | Easy | Given a non-empty array of integers nums, every element appears twice except for one. Find that single one. <br><br>You must implement a solution with a linear runtime complexity and use only constant extra space.|
+
+</details>
+
+<details>
+    <summary>Problems: 200 - 300</summary>
+
+|   #       |   Title       |   Solution    |   Difficulty  | Instruction |
+|   :-----: | :----------- | :-----------: | :-----------: | :--------- |
 | 217 | <a href="https://leetcode.com/problems/contains-duplicate/">Contains Duplicate</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/217-containsDuplicate.js">JavaScript</a> | Easy | Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.|
 | 231 | <a href="https://leetcode.com/problems/power-of-two/">Power of Two</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/231-powerOfTwo.js">JavaScript</a> | Easy | Given an integer n, return true if it is a power of two. Otherwise, return false. <br><br>An integer n is a power of two, if there exists an integer x such that n == 2x.|
 | 238 | <a href="https://leetcode.com/problems/product-of-array-except-self/">Product of Array Except Self</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/238-ProductOfArrayExceptSelf.js">JavaScript</a> | Medium | Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]. The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer. You must write an algorithm that runs in O(n) time and without using the division operation.|
