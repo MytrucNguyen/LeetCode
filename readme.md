@@ -77,7 +77,7 @@
 
 |   #       |   Title       |   Solution    |   Difficulty  | Instruction |
 |   :-----: | :----------- | :-----------: | :-----------: | :--------- |
-
+| 518 | <a href="https://leetcode.com/problems/coin-change-2/">Coin Change 2</a> | <a href="https://github.com/MytrucNguyen/LeetCode/blob/main/JavaScript/518-coinChange2.js">JavaScript</a> | Medium | You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.<br><br>Return the number of combinations that make up that amount. If that amount of money cannot be made up by any combination of the coins, return 0.<br><br>You may assume that you have an infinite number of each kind of coin.<br><br>The answer is guaranteed to fit into a signed 32-bit integer.|
 
 </details>
 
