@@ -3,22 +3,21 @@
  * @param {number} target
  * @return {number}
  */
- var search = function(nums, target) {
+var search = function (nums, target) {
     let start = 0;
     let end = nums.length - 1;
-    
-    while (start <= end){
+
+    while (start <= end) {
         let midpoint = Math.floor((start + end) / 2)
-        
-        if(nums[midpoint] === target) {
+
+        if (nums[midpoint] === target) {
             return midpoint;
-        }
-        else if (nums[midpoint] < target){
+        } else if (nums[midpoint] < target) {
             start++
-        }
-        else {
+        } else {
             end--
         }
+
     }
-    return -1
+    return -1;
 };
